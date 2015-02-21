@@ -5,15 +5,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:text="DT-4000"
-        android:textColor="#fff"
-        android:textSize="36sp"
-        android:textStyle="bold" />
+    <include layout="@layout/title_area" />
 
     <View
         android:id="@+id/view1"
@@ -28,39 +20,7 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="96sp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/btn_sensors"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Sensors" />
-
-            <Button
-                android:id="@+id/btn_staff"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Staff" />
-
-            <Button
-                android:id="@+id/btn_starlog"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:text="Star Log" />
-
-            <View
-                android:id="@+id/listView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:background="#f90" />
-        </LinearLayout>
+        <include layout="@layout/nav_bar" />
 
         <LinearLayout
             android:layout_width="match_parent"
