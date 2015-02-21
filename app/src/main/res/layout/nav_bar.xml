@@ -10,27 +10,29 @@
         android:id="@+id/btn_sensors"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Sensors" />
+        android:text="@string/btn_sensors"
+        android:textAllCaps="false"
+        />
 
     <Button
         android:id="@+id/btn_staff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Staff" />
+        android:text="@string/btn_staff"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_starlog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Star Log" />
+        android:text="@string/btn_starlog"
+        android:textAllCaps="false"/>
 
     <View
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="#f90" />
+        android:background="@color/orange"  />
 </LinearLayout>

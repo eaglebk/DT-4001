@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="btn_sensors">Sensors</string>
+    <string name="btn_staff">Staff</string>
+    <string name="btn_starlog">Star Log</string>
 </resources>

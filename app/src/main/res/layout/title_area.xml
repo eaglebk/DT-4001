@@ -8,10 +8,10 @@
 
     <View
         android:id="@+id/listView"
-        android:layout_width="96sp"
+        android:layout_width="@dimen/normalWidth"
         android:layout_height="match_parent"
         android:layout_gravity="left"
-        android:background="#f90" />
+        android:background="@color/orange"  />
 
     <TextView
         android:id="@+id/textView1"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:gravity="right"
         android:text="DT-4000"
-        android:textColor="#fff"
+        android:textColor="@color/white"
         android:textSize="36sp"
         android:textStyle="bold"
         android:layout_gravity="right" />

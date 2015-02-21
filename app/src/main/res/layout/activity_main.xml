@@ -10,9 +10,10 @@
     <View
         android:id="@+id/view1"
         android:layout_width="match_parent"
-        android:layout_height="16sp"
+        android:layout_height="@dimen/heightFlat"
         android:layout_gravity="center_horizontal"
-        android:background="#f90" />
+        android:background="@color/orange"
+        />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -50,9 +51,9 @@
             <View
                 android:id="@+id/view2"
                 android:layout_width="match_parent"
-                android:layout_height="16sp"
+                android:layout_height="@dimen/heightFlat"
                 android:layout_gravity="bottom"
-                android:background="#f90" />
+                android:background="@color/orange" />
         </LinearLayout>
     </LinearLayout>
 
