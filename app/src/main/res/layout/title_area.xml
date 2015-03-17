@@ -11,7 +11,8 @@
         android:layout_width="@dimen/normalWidth"
         android:layout_height="match_parent"
         android:layout_gravity="left"
-        android:background="@color/orange"  />
+        android:background="@color/orange"
+        style="@style/PanelElement"/>
 
     <TextView
         android:id="@+id/textView1"

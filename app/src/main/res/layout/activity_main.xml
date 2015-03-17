@@ -5,7 +5,8 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <include layout="@layout/title_area" />
+    <include layout="@layout/title_area"
+        android:id="@+id/title_area" />
 
     <View
         android:id="@+id/view1"
@@ -13,7 +14,7 @@
         android:layout_height="@dimen/heightFlat"
         android:layout_gravity="center_horizontal"
         android:background="@color/orange"
-        />
+        style="@style/PanelElement" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -21,7 +22,8 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <include layout="@layout/nav_bar" />
+        <include layout="@layout/nav_bar"
+            android:layout_width="@dimen/normalWidth" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,7 +55,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/heightFlat"
                 android:layout_gravity="bottom"
-                android:background="@color/orange" />
+                android:background="@color/orange"
+                style="@style/PanelElement" />
         </LinearLayout>
     </LinearLayout>
 

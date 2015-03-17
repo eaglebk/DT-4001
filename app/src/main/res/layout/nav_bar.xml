@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="96sp"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:showIn="@layout/activity_main">
@@ -12,14 +12,15 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_sensors"
         android:textAllCaps="false"
-        />
+        style="@style/PanelButton" />
 
     <Button
         android:id="@+id/btn_staff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_staff"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        style="@style/PanelButton" />
 
     <Button
         android:id="@+id/btn_starlog"
@@ -27,12 +28,14 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/btn_starlog"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        style="@style/PanelButton" />
 
     <View
         android:id="@+id/listView"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/normalWidth"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/orange"  />
+        android:background="@color/orange"
+        style="@style/PanelElement" />
 </LinearLayout>

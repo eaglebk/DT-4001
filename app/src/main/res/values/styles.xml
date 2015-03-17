@@ -1,8 +1,20 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+
+    <style name="Platform.AppCompat" parent="@android:style/Widget">
+        <!-- Base application theme. -->
+        </style>
+
+    <style name="PanelButton" parent="android:Widget.Button">
+        <item name="android:background">@color/orange</item>
+        <item name="android:layout_width">@dimen/normalWidth</item>
+        <item name="android:padding">5px</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:layout_margin">2sp</item>
+    </style>
+
+    <style name="PanelElement" parent="">
+        <item name="android:layout_margin">2sp</item>
     </style>
 
 </resources>
