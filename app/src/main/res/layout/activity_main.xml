@@ -9,12 +9,9 @@
         android:id="@+id/title_area" />
 
     <View
-        android:id="@+id/view1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="@dimen/heightFlat"
-        android:layout_gravity="center_horizontal"
-        android:background="@color/orange"
-        style="@style/PanelElement" />
+        style="@style/PanelElement.Orange" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -23,7 +20,8 @@
         android:orientation="horizontal">
 
         <include layout="@layout/nav_bar"
-            android:layout_width="@dimen/normalWidth" />
+            android:layout_width="@dimen/normalWidth"
+            android:layout_height="wrap_content" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -35,7 +33,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:text="Heading"
+                android:text="@string/txt_sensors_title"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="16sp"
                 android:textStyle="bold" />

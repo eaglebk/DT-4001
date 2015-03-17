@@ -4,5 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="heightFlat">16sp</dimen>
     <dimen name="normalWidth">96sp</dimen>
-    <dimen name="normalHeight">96sp</dimen>
+    <dimen name="heightNormal">36sp</dimen>
 </resources>

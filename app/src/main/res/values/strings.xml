@@ -6,4 +6,6 @@
     <string name="btn_sensors">Sensors</string>
     <string name="btn_staff">Staff</string>
     <string name="btn_starlog">Star Log</string>
+    <string name="txt_sensors_title">Sensor</string>
+
 </resources>

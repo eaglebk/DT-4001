@@ -8,34 +8,41 @@
 
     <Button
         android:id="@+id/btn_sensors"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/normalWidth"
+        android:layout_height="@dimen/heightNormal"
         android:text="@string/btn_sensors"
         android:textAllCaps="false"
-        style="@style/PanelButton" />
+        style="@style/PanelButton"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/btn_staff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/normalWidth"
+        android:layout_height="@dimen/heightNormal"
         android:text="@string/btn_staff"
         android:textAllCaps="false"
-        style="@style/PanelButton" />
+        style="@style/PanelButton"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/btn_starlog"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/normalWidth"
+        android:layout_height="@dimen/heightNormal"
         android:layout_gravity="center_horizontal"
         android:text="@string/btn_starlog"
         android:textAllCaps="false"
         style="@style/PanelButton" />
 
     <View
-        android:id="@+id/listView"
         android:layout_width="@dimen/normalWidth"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_gravity="center_horizontal"
-        android:background="@color/orange"
-        style="@style/PanelElement" />
+        android:layout_weight="1"
+        style="@style/PanelElement.Orange" />
+
+    <View
+        android:layout_width="@dimen/normalWidth"
+        android:layout_height="@dimen/heightNormal"
+        android:layout_gravity="center_horizontal"
+        style="@style/PanelElement.Orange" />
 </LinearLayout>

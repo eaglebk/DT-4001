@@ -1,20 +1,31 @@
 <resources>
 
 
-    <style name="Platform.AppCompat" parent="@android:style/Widget">
-        <!-- Base application theme. -->
+    <style name="DT4000" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <item name="android:textViewStyle">@style/TextNormal</item>
         </style>
 
     <style name="PanelButton" parent="android:Widget.Button">
         <item name="android:background">@color/orange</item>
         <item name="android:layout_width">@dimen/normalWidth</item>
-        <item name="android:padding">5px</item>
+        <item name="android:layout_height">@dimen/heightNormal</item>
         <item name="android:gravity">bottom|right</item>
         <item name="android:layout_margin">2sp</item>
+        <item name="android:paddingRight">2sp</item>
     </style>
 
     <style name="PanelElement" parent="">
-        <item name="android:layout_margin">2sp</item>
+        <item name="android:layout_margin">1sp</item>
+    </style>
+
+    <style name="PanelElement.Orange">
+        <item name="android:background">@color/orange</item>
+    </style>
+
+    <style name="TextNormal" parent="android:Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
 </resources>
